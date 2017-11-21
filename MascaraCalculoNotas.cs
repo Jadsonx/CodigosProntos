@@ -62,3 +62,29 @@
                 }
             }
          }
+
+       //var ev = e as TextChangedEventArgs;
+            //if (ev.NewTextValue != ev.OldTextValue)
+            //{
+
+            //    var entry = (Entry)sender;
+            //    string text = Regex.Replace(e.NewTextValue, @"[^0-9]", "");
+
+            //    if (text.Length > 3)
+            //        text = text.Remove(3);
+
+            //    if (text.Length > 2)
+            //    {
+            //        int tam = text.Length - 2;
+            //        text = text.Insert(tam, ",");
+            //    }
+
+            //    if (text.Length == 5)
+            //    {
+            //        text = text.Remove(5);
+            //        double texto = Convert.ToDouble(entry.Text);
+            //    }
+
+            //    if (entry.Text != text)
+            //        entry.Text = text;
+            //}
