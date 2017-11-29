@@ -1,14 +1,14 @@
-      if (!string.IsNullOrEmpty(textBlock.Text))
+    if (!string.IsNullOrEmpty(textBlock.Text))
             {
                 try
                 {
                     double numer = Convert.ToDouble(textBlock.Text);
-                    txt = textBlock.Text.Replace(",", "").Replace(".", "");
-                    if (valor > 10)
+                    txt = textBlock.Text.Replace(".", "").Replace(",", "");
+                    if (numer > 10)
                     {
                         txt = txt.Remove(3);
                     }
-                    if (valor > 2)
+                    else if (valor > 2)
                     {
                         txt = txt.Remove(txt.Length - 1);
                     }
